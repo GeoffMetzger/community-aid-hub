@@ -286,7 +286,11 @@ footer a:hover {
 }
 
 /* ------------------------------
+<<<<<<< HEAD
    Category Tab Pills (From Directory Page)
+=======
+   Category Tab Pills
+>>>>>>> 073bfa53f83274b5877c43fb02fcc81b81e5a6b2
 ------------------------------ */
 .nav-pills .nav-link {
   border: 1px solid #dee2e6;
@@ -298,11 +302,24 @@ footer a:hover {
   background-color: #e9ecef;
 }
 
+<<<<<<< HEAD
 /* Fixed template blue active tab state to Crimson */
 .nav-pills .nav-link.active {
   background-color: var(--crimson-accent) !important;
   border-color: var(--crimson-accent) !important;
   color: #fff !important;
+=======
+.nav-pills .nav-link.active {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
+}
+
+/* Mental Health purple badge (not in Bootstrap by default) */
+.bg-purple {
+  background-color: #6f42c1 !important;
+  color: #fff;
+>>>>>>> 073bfa53f83274b5877c43fb02fcc81b81e5a6b2
 }
 
 
